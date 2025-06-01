@@ -293,7 +293,7 @@ background-repeat: repeat-y;
   }
 
   .sec_two .sec_two_para {
-      font-size: 10px; /* Smaller font size for mobile devices */
+      font-size: 12px;/* Smaller font size for mobile devices */
   }
 
   .container_three {
@@ -303,11 +303,11 @@ background-repeat: repeat-y;
   /* Learn More Button Adjustments for Mobile Devices */
   .sec_two .btn {
       padding: 4px 11px; /* Further reduce padding for mobile devices */
-      font-size: 10px; /* Further reduce font size for mobile devices */
+      font-size: 12px; /* Further reduce font size for mobile devices */
   }
 
   .sec_two .btn p {
-      font-size: 10px; /* Further reduce font size for mobile devices */
+      font-size: 12px; /* Further reduce font size for mobile devices */
   }
 
   .sec_two .btn img {
@@ -624,7 +624,7 @@ margin-left: 30px;
 
 
 .sec_three .sec_three_para {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 16px;
 }
 }

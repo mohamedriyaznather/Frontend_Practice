@@ -81,14 +81,43 @@ background-repeat: repeat-y;
   color: #fff;
 }
 
-.home_banner .btn_banner_two:hover {
- 
-  background-color: #fff;
-  
-  color: #0F0F0F;
+.btn-water-fill {
+  position: relative;
+  padding: 18px 24px;
+  border-radius: 50px;
+  font-size: 14px;
+  background-color: transparent;
+  border: solid 1px white;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease;
 }
 
-.home_banner .btn_banner {
+.btn-water-fill::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  transform: translateX(100%);
+  transition: transform 0.4s ease;
+  border-radius: 50px;
+}
+
+.btn-water-fill:hover::before {
+  transform: translateX(0);
+}
+
+.btn-water-fill:hover {
+  color: #000;
+}
+
+
+ .btn_banner {
   padding: 18px 24px;
   border-radius: 50px;
   font-size: 14px;
@@ -97,7 +126,7 @@ background-repeat: repeat-y;
   color: #0F0F0F;
 }
 
-.home_banner .btn_top {
+ .btn_top {
   font-size: 20px;
 }
 

@@ -29,7 +29,12 @@ background-repeat: repeat-y;
     display: flex;
      justify-content: space-evenly;
   }
-  
+  .first_banner_dot{
+ 
+  padding-top: 145px !important;
+
+}
+
 
  }
 
@@ -86,8 +91,8 @@ background-repeat: repeat-y;
   padding: 18px 24px;
   border-radius: 50px;
   font-size: 14px;
-  background-color: transparent;
-  border: solid 1px white;
+  background-color:  #262626;
+  border: solid 1px transparent;
   color: #fff;
   overflow: hidden;
   z-index: 1;

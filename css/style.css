@@ -643,6 +643,9 @@ margin-left: 30px;
   
   }
 @media (max-width:468px){
+  h2{
+    font-size: 28px;
+  }
 .inner_contain {
   width: 320px;
   height: 271px;

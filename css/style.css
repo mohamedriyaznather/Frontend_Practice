@@ -1257,7 +1257,7 @@ margin-top: 70px;
   border: none;
   outline: none;
 
-  background-color: #292524;
+  background-color: #262626;
   color: white;
   font-size: 1em;
 }
@@ -1329,3 +1329,15 @@ margin-top: 70px;
 .subscribe_btn{
   margin-top:50px;
 }
+ @media  only screen and (max-width:768px) {
+  .input-wrapper {
+    width: 300px;
+
+  }
+  .input {
+    
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+ }

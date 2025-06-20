@@ -73,7 +73,10 @@
 
             <div class="d-flex gap-3">
               <button class="btn_banner">Get Started</button>
-              <button class="btn-water-fill">Free Consultation</button>
+            
+              <button type="button" class="btn-water-fill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Free Consultation
+</button>
           </div>
             
         </div>
@@ -83,6 +86,57 @@
     </div>
 
 
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <!-- From Uiverse.io by ammarsaa --> 
+<form class="form">
+    <p class="title">Contact Now </p>
+
+        <div class="flex">
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Firstname</span>
+        </label>
+
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Lastname</span>
+        </label>
+    </div>  
+            
+    <label>
+        <input class="input" type="email" placeholder="" required="">
+        <span>Email</span>
+    </label> 
+        
+    <label>
+        <input class="input" type="tel" placeholder="" required="">
+        <span>Phone Number</span>
+    </label>
+
+    <label>
+       <textarea class="input" type="message" rows="4" required=""></textarea>
+       <span>Message</span>
+    </label>
+
+    <button class="send">Send</button>
+
+</form>
+      </div>
+      
+    </div>
+  </div>
 </div>
     </section>
     
@@ -751,7 +805,9 @@
           <div class="d-flex gap-3 justify-content-center">
             
             <button class="btn_banner">Get Started</button>
-            <button class="btn_banner_two">Free Consultation</button>
+                         <button type="button" class="btn-water-fill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Free Consultation
+</button>
         </div>
         <img src="images/Final_image.png" class="fianl_image" alt="...">
         </div>

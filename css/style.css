@@ -1525,4 +1525,17 @@ margin-top: 70px;
 .form label .input + span {
   font-size: 12px;;
 }
+
+.modal {
+    margin-top: 50px;
+    
+}
+.send {
+    font-size: 13px;
+    padding: 10px 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* This centers the button horizontally */
+}
 }
